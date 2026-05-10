@@ -204,3 +204,13 @@ python inference.py --task regression \
 ```
 
 Output will be saved in `NaFM/predictions.csv`.
+
+### important Notes on Evaluation Scripts
+
+The repository includes lightweight demonstration scripts intended to illustrate the basic inference workflow and input/output usage of NaFM.
+
+In particular, ```test.py``` should be regarded as a minimal demonstration template rather than the exact production evaluation pipeline used to generate the benchmark results reported in the paper.
+
+**Note:** The configs under ```examples/``` are example settings used for running the provided tasks. Some downstream tasks may require minor adjustment of parameters such as learning rate, training epochs, or early stopping patience depending on the dataset and training environment.
+
+
